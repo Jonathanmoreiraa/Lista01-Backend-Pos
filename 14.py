@@ -11,5 +11,9 @@ for j in range(len(matriz[0])):
     for i in range(len(matriz)):
         matrizT[j][i] = matriz[i][j]
 
+print("Matriz")
+for i in range(len(matriz)):
+    print(matriz[i])
+print("Matriz Transposta")
 for i in range(len(matrizT)):
     print(matrizT[i])

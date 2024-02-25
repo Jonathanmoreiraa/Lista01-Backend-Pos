@@ -1,4 +1,3 @@
-import random
 matriz = [[0 for _ in range(10)] for _ in range(10)]
 
 for i in range(10):
