@@ -12,10 +12,10 @@ def decrescente(vetor):
                 vetor[j], vetor[j+1] = vetor[j+1], vetor[j]
     return vetor
 
-valores = []
+vetores = []
 for i in range(10):
     valor = int(input(f"Informe um número inteiro: "))
-    valores.append(valor)
+    vetores.append(valor)
 
-print(crescente(valores))
-print(decrescente(valores))
+print(crescente(vetores))
+print(decrescente(vetores))
