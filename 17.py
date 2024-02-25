@@ -14,7 +14,7 @@ def decrescente(vetor):
 
 valores = []
 for i in range(10):
-    valor = int(input(f"Digite o {i+1}º valor inteiro: "))
+    valor = int(input(f"Informe um número inteiro: "))
     valores.append(valor)
 
 print(crescente(valores))
